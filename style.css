@@ -1,0 +1,81 @@
+.credit-card {
+    background-color: #425ecd;
+    height: 204px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: "Arial";
+}
+
+.credit-card-front {
+    width: 324px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+}
+
+.number {
+
+}
+
+.credit-card-back {
+    width: 344px;
+}
+
+.credit-card-back .information-wrapper {
+    height: 35px;
+    width: 50%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.credit-card-back {
+    font-family: "Arial", cursive;
+    font-size: 28px;
+}
+
+.credit-card-back .name {
+    font-family: "Rouge Script", cursive;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.magnetic-strip {
+    height: 45px;
+    background-color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.credit-card-front p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.credit-card-back .number {
+    font-family: "Arial", cursive;
+    font-size: 14px;
+}
+
+.credit-card-front .information-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.credit-card-front .number {
+    font-size: 22px;
+}
+
+.credit-card-front .information-wrapper p:first-child {
+    width: 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
