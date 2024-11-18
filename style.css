@@ -6,7 +6,7 @@
     font-size: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    font-family: "Arial";
+    font-family: "Roboto", sans-serif;
 }
 
 .credit-card-front {
@@ -14,10 +14,6 @@
     display: flex;
     justify-content: flex-end;
     padding-left: 20px;
-}
-
-.number {
-
 }
 
 .credit-card-back {
@@ -37,13 +33,15 @@
 }
 
 .credit-card-back {
-    font-family: "Arial", cursive;
+    font-family: "Roboto", sans-serif;
+    font-style: oblique;
     font-size: 28px;
 }
 
 .credit-card-back .name {
-    font-family: "Rouge Script", cursive;
+    font-family: "Rouge Script";
     font-size: 28px;
+    font-style: oblique;
     margin-left: 10px;
 }
 
@@ -55,22 +53,28 @@
 }
 
 .credit-card-front p {
-    margin-bottom: 10px;
+    margin-bottom: 3px;
     margin-top: 0;
 }
 
 .credit-card-back .number {
-    font-family: "Arial", cursive;
+    font-family: "Roboto";
+    font-style: italic;
     font-size: 14px;
+    padding-bottom: 18px;
+    padding-right: 3px;
 }
 
 .credit-card-front .information-wrapper {
     display: flex;
     align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .credit-card-front .number {
-    font-size: 22px;
+    font-size: 28px;
+    margin-left: 10px;
 }
 
 .credit-card-front .information-wrapper p:first-child {
@@ -79,3 +83,7 @@
     text-transform: uppercase;
 }
 
+.credit-card-front .name {
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
