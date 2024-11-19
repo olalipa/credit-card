@@ -39,9 +39,7 @@
 }
 
 .credit-card-back .name {
-    font-family: "Rouge Script";
-    font-size: 28px;
-    font-style: oblique;
+    font-family: "Rouge Script", sans-serif;
     margin-left: 10px;
 }
 
@@ -58,8 +56,7 @@
 }
 
 .credit-card-back .number {
-    font-family: "Roboto";
-    font-style: italic;
+    font-family: "roboto", sans-serif;
     font-size: 14px;
     padding-bottom: 18px;
     padding-right: 3px;
